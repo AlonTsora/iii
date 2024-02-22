@@ -1,0 +1,169 @@
+#visitorsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+  border-radius: 100px;
+}
+.navbar-login {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: auto;
+}
+.navbar-login img {
+  width: 40px;
+  height: 40px;
+}
+.tab {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+.logintousers {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 100px;
+}
+#searchBox {
+  position: relative;
+  justify-content: center;
+  width: 90%;
+}
+.card-nav {
+  display: flex;
+  padding-left: 10px;
+}
+#cardss {
+  border: 5px solid black;
+}
+#cardss div {
+  border: 1px solid black;
+  background-color: coral;
+}
+#login_body {
+  background: url(./photos/Z9_Jungle.jpg);
+}
+#nav-bar {
+  background-color: aliceblue;
+  position: relative;
+}
+#dialogs {
+  z-index: 1;
+  position: relative;
+  border: solid black 10px;
+  background-color: aliceblue;
+}
+::backdrop {
+  background-color: white;
+  opacity: 0.75;
+}
+
+/* Navbar links */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* This ensures the navbar extends full width */
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-color: #333; /* Added for visibility, change as needed */
+  z-index: 10;
+}
+
+/*דיאלוג של VISITOR*/
+#myDialog {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*הסטייל של דף הZOO*/
+#forms {
+  background-color: rgb(207, 204, 198);
+  margin: 120px 40px 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#filrerForm {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content: space-evenly;
+}
+
+#filrerForm label {
+  margin-top: 10px;
+}
+
+#filrerForm div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#filrerForm button {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 70px;
+  height: 35px;
+}
+
+input {
+  width: 110px;
+}
+
+#animal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#animal-cards p {
+  margin: 10px;
+}
+
+/*שיכפול קוד!! לבדוק האם אפשר למחוק את הID למעלה*/
+.cardss {
+  border: 5px solid black;
+}
+.cardss div {
+  border: 1px solid black;
+  background-color: coral;
+}
+
+/*דף החיות*/
+#InformationCard {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  background-color: darkblue;
+  margin-top: 80px;
+  color: #f2f2f2;
+}
+
+#InformationCard div {
+  display: flex;
+}
+
+#InformationCard #Container {
+  display: flex;
+  flex-direction: column;
+}
+
+#dialogImg {
+  width: 280px;
+}

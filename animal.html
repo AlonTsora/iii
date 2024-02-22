@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="tab">Lego zoo</div>
+      <div class="tab" id="visitornav"></div>
+      \
+      <div class="tab">
+        <img
+          class="logo"
+          src="https://i.ibb.co/hmG2Tdk/DALL-E-2024-02-22-11-40-20-Design-a-logo-for-a-game-titled-Lego-Zoo-focusing-on-a-family-friendly-an.webp"
+          alt=""
+        />
+      </div>
+    </nav>
+    <div id="InformationCard">
+      <div id="image">
+        <!-- show here the animal image -->
+      </div>
+      <div id="Container">
+        <div>
+          <h1>name:</h1>
+          <h1 id="name"></h1>
+        </div>
+        <div>
+          <p>weight:</p>
+          <p id="weight"></p>
+        </div>
+        <div>
+          <p>height:</p>
+          <p id="height"></p>
+        </div>
+        <div>
+          <p>color:</p>
+          <p id="color"></p>
+        </div>
+        <div>
+          <p>habitat:</p>
+          <p id="habitat"></p>
+        </div>
+        <div>
+          <p>diet:</p>
+          <p id="isPredator"></p>
+        </div>
+        <button id="feed-animal">Feed me</button>
+      </div>
+    </div>
+    <div id="related-animals"></div>
+
+    <dialog id="myDialog">
+      <h2 id="dialogid">You have no coins available!!</h2>
+      <div>
+        <div id="displayElementId"></div>
+        <button id="Logout_from_user">Go to home page</button>
+      </div>
+    </dialog>
+
+    <script src="./animal.js"></script>
+  </body>
+</html>
